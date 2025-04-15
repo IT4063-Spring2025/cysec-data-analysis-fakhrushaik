@@ -156,5 +156,6 @@ for name, model in models:
 
 
 # The following command converts this Jupyter notebook to a Python script.
-get_ipython().system('jupyter nbconvert --to python notebook.ipynb')
+import os
+os.system('jupyter nbconvert --to python notebook.ipynb')
 
